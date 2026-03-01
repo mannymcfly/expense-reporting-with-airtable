@@ -1,0 +1,11 @@
+{
+  "name": "expense-app",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "airtable": "^0.12.2"
+  }
+}
