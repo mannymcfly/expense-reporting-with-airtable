@@ -8,6 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@tailwindcss/postcss": "^4.2.1",
     "@vitejs/plugin-react": "^4.3.4",
     "airtable": "^0.12.2",
     "autoprefixer": "^10.4.27",
