@@ -185,12 +185,14 @@ export default function App() {
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <input
-                  type="date"
-                  required
-                  className="w-full p-3 border rounded-xl"
-                  value={expense.date}
-                  onChange={(e) => handleExpenseChange(index, "date", e.target.value)}
-                />
+                    type="date"
+                    required
+                    className="w-full p-3 border rounded-xl appearance-none bg-white text-gray-700"
+                    style={{ minHeight: '48px' }}
+                    value={expense.date}
+                    onChange={(e) => handleExpenseChange(index, "date", e.target.value)}
+                  />
+
 
                 <select
                   required
